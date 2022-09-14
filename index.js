@@ -9,7 +9,7 @@ function User(firstName, lastName, email, age, isLoggedIn) {
 
 const userProto = {
   getFullName: function () {
-    console.log(`Name ${this.firstName} last name ${this.lastName}`);
+    return `Name ${this.firstName} last name ${this.lastName}`;
   },
   logout: function () {
     this.isLoggedIn = false;
