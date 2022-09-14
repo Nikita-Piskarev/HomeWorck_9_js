@@ -13,11 +13,11 @@ const userProto = {
   },
   logout: function () {
     this.isLoggedIn = false;
-    console.log(`isloggedIn ${this.isLoggedIn}`);
+    return `isloggedIn ${this.isLoggedIn}`;
   },
   login: function () {
     this.isLoggedIn = true;
-    console.log(`isloggedIn ${this.isLoggedIn}`);
+    return `isloggedIn ${this.isLoggedIn}`;
   },
 };
 
